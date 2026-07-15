@@ -1,0 +1,27 @@
+{
+  "domain": "carlinko",
+  "name": "CarLinko",
+  "version": "0.1.0",
+  "documentation": "https://github.com/francoisj1/carlinko-homeassistant",
+  "issue_tracker": "https://github.com/francoisj1/carlinko-homeassistant/issues",
+  "codeowners": [
+    "@francoisj1"
+  ],
+  "config_flow": true,
+  "iot_class": "cloud_push",
+  "integration_type": "hub",
+  "loggers": [
+    "custom_components.carlinko",
+    "custom_components.carlinko.sdk"
+  ],
+  "requirements": [],
+  "dependencies": [],
+  "after_dependencies": [],
+  "homekit": {},
+  "ssdp": [],
+  "zeroconf": [],
+  "usb": [],
+  "bluetooth": [],
+  "dhcp": []
+}
+
