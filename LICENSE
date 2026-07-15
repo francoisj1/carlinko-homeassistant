@@ -1,2 +1,12 @@
 
-free
+
+The goal of this project is to provide an open-source Home Assistant integration for vehicles using the CarLinko cloud platform. The project includes a reusable Python SDK for authentication, telemetry retrieval, and live WebSocket communication, enabling both Home Assistant integration and standalone Python applications.
+
+I built the project to pull information from the Carlinko app and present in HASS through a HACS repo and you can read sensors. The current telemetry exposes VIN, battery SOC
+
+This is free to use and at own risk. Works on a OMODA C7 PHEV and tested in South Africa.
+
+It reads information every 250 seconds from the mobile application. The phone periodically needs to be close to the car to receive updates or the car needs to be connected on Wifi. It makes use of the registered account on the app, I do recommend adding an additional accoun that can be isolated and polled from the web.
+
+If there are any enhancements you can provide, let me know. francoisj1@gmail.com
+
