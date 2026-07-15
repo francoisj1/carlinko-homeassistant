@@ -36,7 +36,7 @@ class CarLinkoCoordinator(DataUpdateCoordinator):
             hass,
             _LOGGER,
             name="CarLinko",
-            update_interval=timedelta(seconds=5),
+            update_interval=timedelta(seconds=250),
         )
 
     async def _async_update_data(self):
