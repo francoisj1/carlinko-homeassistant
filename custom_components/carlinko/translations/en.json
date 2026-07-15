@@ -1,2 +1,28 @@
+{
+  "title": "CarLinko",
 
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to CarLinko",
+        "description": "Enter your CarLinko account details.",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "region": "Region"
+        }
+      }
+    },
+
+    "error": {
+      "cannot_connect": "Cannot connect to CarLinko.",
+      "invalid_auth": "Invalid username or password.",
+      "unknown": "Unknown error occurred."
+    },
+
+    "abort": {
+      "already_configured": "This account has already been configured."
+    }
+  }
+}
 
